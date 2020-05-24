@@ -1,0 +1,57 @@
+
+/* ---------- Basic Layout Styles ----------- */
+
+
+html {
+    background: #fff
+}
+
+#page{
+	margin: 0 auto;
+	width: 1000px;
+	min-height: 500px;
+}
+#header{
+	width: 1000px;
+}
+#header img {
+	display: block;
+	}
+
+#footer {
+	clear: left;
+	height: 160px;
+}
+
+#main{
+	float: left;
+	width: 1000px;
+	background: url('center.png');
+}
+#sidebar-first {
+    width:183px;
+	float: left;
+	display: inline;
+	background: #fff;
+	margin-left: 17px;
+}
+
+#content{
+	float: left;
+	width:570px;
+	display: inline;
+	background: #fff;
+    margin-left:15px;
+    margin-right:15px;
+  }
+  
+#sidebar-second {
+	width:183px;
+	float: left;
+	display: inline;
+	background: #fff;
+	margin-right: 17px;
+}
+#breadcrumb {
+margin-left:17px;
+}

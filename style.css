@@ -1,0 +1,256 @@
+html
+{
+background-color:#7F7F7F;
+}
+p,li,ul,h1,h2,h3,h4,body{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+p,li,ul,body{
+    font-size:.95em;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0px;
+    text-align: center;
+    }
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px;
+    }
+#cost_table th {
+	background-color:#AAA;
+	color:black;
+}
+#conferencecommitteelist ul {
+
+    margin-bottom: 10px;
+}
+#steeringcommitteelist li {
+
+    margin-bottom: 10px;
+}
+#importantdates h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#importantdates p.date {
+    font-weight: bold;
+    margin: 0px;
+}
+#importantdates p.datedescription {
+    font-size: .85em;
+    margin: 0px;
+}
+#importantdates div.importantdate {
+    margin-bottom:10px;
+}
+#importantdates a:link, #importantdates a:visited{
+    color: #069;
+    text-decoration: none;
+}
+#importantdates a:hover{
+    color: #036;
+    text-decoration:underline;
+}
+#supporters h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top:0px;
+    margin-bottom: 5px;
+    text-align: center;
+    }
+#supporters p {
+    font-size:.85em;
+    }
+#workshops div {
+	border-style:solid;
+	border-width:5px;
+	padding:10px;
+	margin:10px;
+}
+.flavrs_toc {
+	float: right;
+	display: inline;
+	border-style:solid;
+	border-width:2px;
+	margin-left:10px;
+}
+.flavrs_toc li {
+	list-style-type: none;
+	margin-left:-20px;
+	margin-right:10px;
+}
+.flavrs_toc p {
+	text-align: center;
+	font-weight: bold;
+}
+.flavrs_demo {
+	font-weight:normal;
+	border-style: groove;
+	border-width:10px;
+}
+.flavrs_info {
+	font-weight:normal;
+	text-align:justify;
+	margin-right:5%;
+}
+.flavrs_title {
+	text-align:center;
+	font-weight:bold;
+	font-size:1.2em;
+	color: #A00;
+}
+.flavrs_heading {
+	color: #A00;
+	font-weight:bold;
+	font-style: italic;
+}
+.flavrs_image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	padding: 5px;
+}
+
+div.paper_session {
+	display: block;
+	width: 90%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000;
+	margin-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}	
+p.paper_session_title {
+	color: #A00;
+	font-weight: bold;
+}
+p.paper_title {
+	font-style: bold;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+p.paper_authors {
+	margin-top: 2px;
+	padding-left: 10px;
+	font-style:italic;
+}
+
+span.paper_id {
+	font-style: normal;
+	font-weight: bold;
+	color: #00A;
+}
+
+
+p.poster_title {
+	font-style: bold;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+
+span.poster_id {
+	font-style: normal;
+	font-weight: bold;
+	color: #00A;
+}
+
+p.poster_authors {
+	margin-top: 2px;
+	padding-left: 10px;
+	font-style:italic;
+}
+
+div.keynote_speaker {
+	display: block;
+	width: 90%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000;
+	margin-bottom: 5px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.keynote_speaker_photo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	padding-left:10px;
+}
+p.keynote_speaker_name {
+	text-align: center;
+	margin-top: 0px;
+	font-size: 1.6em;
+}
+span.keynote_label {
+	color: #A00;
+}
+div.keynote_speaker_abstract {
+	text-align: justify;
+}
+div.keynote_speaker_bio {
+	text-align: justify;
+}
+table.keynote_quick_links {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	margin-bottom: 20px; 
+}
+
+div.dc_person {
+	display: block;
+	width: 90%;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #000;
+	margin-bottom: 5px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.dc_header {
+	font-size: 1.6em;
+}
+span.dc_name {
+	color: #A00;	
+}
+span.dc_affiliation {
+	display:block;
+	font-size: .9em;
+	font-style:italic;	
+	margin-left:10px;
+}
+div.dc_title {
+	font-weight:bold;
+	margin-top:10px;	
+}
+span.dc_titletext {
+	font-weight:normal;
+	margin-left:10px;
+}
+div.dc_abstract {
+	margin-top:10px;
+	font-weight:bold;
+	text-align:justify;
+}
+span.dc_abstracttext {
+	font-weight:normal;
+	margin-left: 10px;
+}
